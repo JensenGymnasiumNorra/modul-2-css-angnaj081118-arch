@@ -408,10 +408,10 @@ height: 60vh;
 width: 100vh;
 }
 
-#Sektion1 p a[href="Vertin.html"] {
+/* #Sektion1 p a[href="Vertin.html"] {
 text-decoration: none;
 color: rgb(54, 77, 126);
-}
+} */
 
 #Sektion3 p a[href="Lilya.html"] {
 text-decoration: none;
@@ -1116,4 +1116,28 @@ animation-duration: 2s;
 .Lilyaback:hover {
 transform: scale(1.1);
 font-size: 32px;
+}
+
+
+
+
+.WIP{
+  color: white;
+  font-weight: bolder;
+-webkit-text-stroke: 0.2px black;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+font-size: 50px;
+position: relative;
+display: block; 
+text-align: center;
+margin-top: 50px;
+}
+
+.WIPIMG{
+ width: 400px; 
+ height: auto;
+ display: inline;
+ align-items: center;
+ position: relative;
+ left: 500px;
 }
